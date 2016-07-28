@@ -1,0 +1,29 @@
+.mod-dialog{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width:300px;
+	height:150px;
+	margin-top:-75px;
+	margin-left: -150px;
+	border:1px solid #dfdfdf;
+
+}
+
+.mod-dialog .dialog-hd{
+	height:50px;
+	line-height: 50px;
+	background-color: #dfdfdf;
+	padding-left: 20px;
+}
+
+.mod-dialog .dialog-bd{
+	padding: 20px;
+}
+
+.mod-dialog .close{
+	position: absolute;
+	top:2px;
+	right:10px;
+	cursor: pointer;
+}
